@@ -179,3 +179,12 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Ignore large datasets
+data/raw/*
+data/cleaned/*
+notebook/data/*
+
+# Allow sample data
+!data/sample/
+!data/sample/*.csv
